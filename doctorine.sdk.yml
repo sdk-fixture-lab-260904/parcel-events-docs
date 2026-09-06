@@ -13,6 +13,9 @@ targets:
       environment: parcel-events-release
   go:
     package_name: github.com/sdk-fixture-lab-260904/parcel-events-go
+    publish:
+      registry: github-tag
+      environment: parcel-events-release
   cli:
     package_name: "@sdkfixturelab260904/parcel-events-cli"
     publish:
